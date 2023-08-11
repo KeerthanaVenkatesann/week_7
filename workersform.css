@@ -1,0 +1,6 @@
+.form-control.valid input{
+ border-color: green;
+}
+.form-control.error input{
+    border: 2px solid rgb(236, 51, 51);
+   }

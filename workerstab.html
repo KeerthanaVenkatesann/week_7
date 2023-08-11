@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="school.pnj.png">
+    <title>workers List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="workerslist.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="onload()">
+  <button class="btn btn-success  ms-5 mt-5  px-4 text-end  border border-danger border-4" onclick="backform()">Back <i class='bx bx-left-arrow-alt' ></i></button> 
+  
+  
+    <button class="btn btn-success ms-5 mt-5 border border-danger border-4" onclick="addform()">Add Your Details <i class='bx bx-right-arrow-alt'></i></i></button> 
+  <table class="table mt-5 w-50 table-bordered ms-5  " >
+    <thead class="bg-secondary text-light">
+      <td>NAME</td>
+      <td>AGE</td>
+      <td>GENDER</td>
+      <td >ADDRESS</td>
+      <td>PHONENO</td>
+      <td>EMAIL</td>
+      <td>ACTION</td>
+    </thead>
+  
+   <tbody id="work">
+
+   </tbody>
+   
+  </table>
+</body>
+</html>
